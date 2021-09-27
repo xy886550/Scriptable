@@ -1,6 +1,7 @@
 // Variables used by Scriptable.
 // These must be at the very top of the file. Do not edit.
 // icon-color: deep-green; icon-glyph: table;
+// 改自 美图日历1.0
 //############## 公共参数配置模块 ############## 
 const filename = `${Script.name()}.jpg`
 const files = FileManager.local()
