@@ -3,7 +3,7 @@
 // icon-color: pink; icon-glyph: images;
 /**
 * 版本: 1.2.0
-* 更新时间：2021.09.20
+* 更新时间：2021.09.20 在ios15下因农历模块无法运行
 */
 //############## 公共参数配置模块 ############## 
 const filename = `${Script.name()}.jpg`
