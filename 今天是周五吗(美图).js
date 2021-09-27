@@ -12,7 +12,7 @@ class Im3xWidget {
     var weekArr = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
     return {
       MM年dd日: month + "月" + day + "日",
-      yyyy年MM年dd日: year + "年" + month + "月" + day + "日",
+      yyyy年MM月dd日: year + "年" + month + "月" + day + "日",
       week: weekArr[week],
       isFriday: week == 5,
       nextFriday: (5 - week + 7) % 7
@@ -158,7 +158,7 @@ class Im3xWidget {
    */
   async renderMedium() {
     var current = this.currentDate()
-    let widget = await this.createBasicWidget(current.yyyy年MM年dd日, current.week)
+    let widget = await this.createBasicWidget(current.yyyy年MM月dd日, current.week)
 
     widget.addSpacer(60)
 
