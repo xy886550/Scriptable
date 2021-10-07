@@ -1,6 +1,10 @@
 // Variables used by Scriptable.
 // These must be at the very top of the file. Do not edit.
 // icon-color: red; icon-glyph: snowflake;
+/**
+* 版本: 1.0
+* 更新时间：2021.10.07
+*/
 /* ------------- 设置项目 ------------- */
 //功能对齐间距
 let widget = new ListWidget()
