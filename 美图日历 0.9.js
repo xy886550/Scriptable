@@ -1,6 +1,12 @@
 // Variables used by Scriptable.
 // These must be at the very top of the file. Do not edit.
 // icon-color: teal; icon-glyph: images;
+
+/**
+* 版本: 0.9
+* 更新时间：忘了 修改自Nicolas-kings的 ONE-Today.js（1.4）
+*/
+
 //############## 公共参数配置模块 ############## 
 const filename = `${Script.name()}.jpg`
 const files = FileManager.local()
