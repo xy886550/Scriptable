@@ -59,6 +59,7 @@ class Im3xWidget {
     let bg = await this.getImage(one["img_url"])
   
     w.backgroundImage = await this.shadowImage(bg)
+    w.refreshAfterDate = new Date(Date.now() + 1000 * 60 * 60 * 24)
   //   记得最后返回组件
     return w
   }
