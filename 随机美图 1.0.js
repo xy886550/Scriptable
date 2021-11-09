@@ -26,10 +26,11 @@
   "https://api.uomg.com/api/rand.img2?sort=%E8%85%BF%E6%8E%A7&format=images",//腿控
 
   "https://api.uomg.com/api/rand.avatar?sort=%E5%A5%B3&format=images",//头像
-  // ✨小歪·API  横屏 风景
-  "https://api.ixiaowai.cn/gqapi/gqapi.php",
-  // ✨动漫星空·API  横屏 ACG
-  //"https://api.dongmanxingkong.com/suijitupian/acg/1080p/index.php?",//失效
+// 小歪·API  横屏
+  "https://api.ixiaowai.cn/gqapi/gqapi.php",//风景
+  "https://api.ixiaowai.cn/api/api.php",//ACG
+  // 樱花·API  横屏 ACG
+  "https://www.dmoe.cc/random.php",
   // ✨Loli·API  横屏 ACG
   "https://api.loli.bj/api",
   // ✨接口互联·API  横竖屏
